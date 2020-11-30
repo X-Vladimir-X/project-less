@@ -1,0 +1,380 @@
+.page {
+    margin: 0 auto;
+    font-family: 'Arial';
+    width: 1280px;
+    border: 1px solid #ff0000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.padding-cite {
+
+    padding: 0 auto;
+    border: 2px solid black;
+}
+
+.header {
+    padding: 50px;
+    background: #445162;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    margin: 50px 863px 229px 50;
+}
+
+.header-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.heder-img {
+    width: 470px;
+    height: 215px;
+    background-color: #ffffff;
+}
+
+.big-body {
+    width: 1280px;
+    padding: 0px;
+}
+
+.about-product {
+    margin: 0 auto;
+
+    padding: 50px;
+    border: 1px solid #ff0000;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-img {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.digniti-pluses {
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+
+}
+
+.digniti-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.digniti-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digniti-list-item {
+    margin: 0 0 40px 0;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.dignity-list-text {
+    margin: 0;
+    padding: 0 0 0 46px;
+    position: absolute;
+}
+
+.dignity-list-item:nth-child(5),
+.dignity-list-item:nth-child(6) {
+    margin: 0;
+
+}
+
+.digniti-list-text:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+
+.scrinshots {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.scrinshots-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.scrinshots-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scrinshots-list-item {
+    margin: 0 0 40px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrinshots-list-title {
+
+    text-align: center;
+    color: #445161;
+
+}
+
+.scrinshots-list-text {
+    margin: 0;
+    padding: 0 0 0 46px;
+}
+
+.Reviews {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.reviews-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.reviews-box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-block {
+    margin: 0 0 40px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.price-title {
+    color: #445162;
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    text-align: center;
+}
+
+.price-item {
+    width: 30%;
+    border: 1px solid black;
+    background: #445162;
+}
+
+.price-item:nth-child(2) {
+    height: 50%;
+    align-self: flex-end;
+}
+
+.price-item:nth-child(3) {
+    height: 150%;
+    align-self: flex-end;
+}
+
+.price-item:last-child {
+    height: 250%;
+    align-self: flex-end;
+}
+
+.price-title-text {
+
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+
+}
+
+.price-text {
+    font-size: 40px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    color: #445161;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.price-button {
+    color: #445162;
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+    width: 180px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    outline: none;
+    color: #445161;
+}
+
+
+footer {
+    margin-top: 50px;
+    background: #445162;
+    width: 100%;
+    border: 1px solid #ff0000;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 55%;
+    margin: 0;
+    border: 2px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 1px solid green;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    margin: 0 0 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: block;
+    width: 140px;
+    height: 40px;
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #ffffff;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #fff;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    background-color: #ccc;
+}
